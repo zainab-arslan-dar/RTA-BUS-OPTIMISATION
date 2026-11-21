@@ -1,0 +1,227 @@
+{
+  "exportedWithOptions": {
+    "exportUploads": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": true,
+    "exportSavedModels": true,
+    "exportManagedFolders": true,
+    "exportModelEvaluationStores": true,
+    "exportProjectResources": true,
+    "exportLabelingTasks": true,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportAllInputManagedFolders": true,
+    "exportGitRepository": true,
+    "exportInsightsData": true,
+    "useManualPluginsInfo": false,
+    "exportSavedModelsRequiredVersions": true,
+    "exportNotebooksWithOutputs": true,
+    "exportForNewBranch": false,
+    "exportKnowledgeBanks": false,
+    "exportEditableDatasets": true,
+    "exportPromptStudioHistories": false,
+    "exportNotebooks": true,
+    "exportDatasetResources": true,
+    "exportAgentReviews": true,
+    "exportCobuildChats": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedModelEvaluationStores": [],
+    "includedManagedFolders": [],
+    "includedCodeStudios": [],
+    "includedKnowledgeBanks": [],
+    "includedLabelingTasks": [],
+    "includedPromptStudiosHistories": [],
+    "shareAllInputDatasets": false,
+    "exportForeignObjectsReferences": true
+  },
+  "actualContent": {
+    "includedDatasets": [],
+    "includedSavedModels": [
+      {
+        "id": "D7Z0r8UC",
+        "name": "Predict count (regression)",
+        "size": 9019310
+      }
+    ],
+    "includedManagedFolders": [
+      {
+        "id": "3zQ9J7rS",
+        "name": "rasma_activity_logs",
+        "size": 0
+      }
+    ],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedKnowledgeBanks": [],
+    "includedLabelingTasks": [],
+    "includedPromptStudiosHistories": [],
+    "allAnalysisData": true,
+    "insightsData": true
+  },
+  "originalProjectKey": "RTA_BUS_OPTIMISATION",
+  "manifestVersion": 3,
+  "generatedWithDSSVersion": "15.2.2",
+  "generatedWithDSSConfVersion": "15220",
+  "foreignObjects": [
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "community_2026-10-20_09-28-00"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "frequencies"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "Fleet_List"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "routes"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "Communities_2026-11-09_attribute-details"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "stop_times"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "stops"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "nol_card_details_15-Dec-2025"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "trips"
+    },
+    {
+      "projectKey": "DATA",
+      "type": "DATASET",
+      "id": "Running_time_15-Dec-2025"
+    }
+  ],
+  "exportedWithPlugins": [
+    {
+      "pluginId": "geoadmin",
+      "version": "2.3.1"
+    },
+    {
+      "pluginId": "local-r-dev-setup",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "default-samples",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "agent-hub",
+      "version": "1.7.4"
+    },
+    {
+      "pluginId": "builtin-macros",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "sql-question-answering-tool",
+      "version": "1.4.0"
+    },
+    {
+      "pluginId": "code-studio-blocks",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "geocoder",
+      "version": "1.5.0"
+    },
+    {
+      "pluginId": "k8s-metrics-utils",
+      "version": "1.0.0"
+    },
+    {
+      "pluginId": "project-standards",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "traces-explorer",
+      "version": "1.5.2"
+    },
+    {
+      "pluginId": "agentic-llm-council",
+      "version": "0.1.0"
+    },
+    {
+      "pluginId": "api-connect",
+      "version": "1.6.3"
+    },
+    {
+      "pluginId": "kml-format",
+      "version": "0.1.0"
+    },
+    {
+      "pluginId": "dku-saas",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "mapbox-maps-backgrounds",
+      "version": "0.0.6"
+    },
+    {
+      "pluginId": "rta-pii-guardrail",
+      "version": "0.1.0"
+    },
+    {
+      "pluginId": "colorbrewer-palettes",
+      "version": "0.0.1"
+    },
+    {
+      "pluginId": "semantic-models-lab",
+      "version": "1.3.4"
+    }
+  ],
+  "exportedWithCodeStudioTemplates": [],
+  "requiredCodeStudioTemplates": [],
+  "requiredConnections": {
+    "dataiku-managed-storage": {
+      "name": "dataiku-managed-storage",
+      "type": "EC2",
+      "isMissing": false
+    },
+    "RTA_Hackathon_OpenAI": {
+      "name": "RTA_Hackathon_OpenAI",
+      "type": "AzureOpenAI",
+      "isMissing": false
+    }
+  },
+  "allowedMissingConnections": [],
+  "usedCodeEnvRefs": [
+    {
+      "envLang": "PYTHON",
+      "envName": "rta-hackathon-py"
+    }
+  ],
+  "allowedMissingCodeEnvs": [],
+  "usedContainerExecConfs": [
+    {
+      "name": "vCPU-1-RAM-8GiB",
+      "type": "KUBERNETES",
+      "workloadType": "ANY"
+    }
+  ],
+  "hasPartitionedDataset": false,
+  "exportedByAdmin": false
+}

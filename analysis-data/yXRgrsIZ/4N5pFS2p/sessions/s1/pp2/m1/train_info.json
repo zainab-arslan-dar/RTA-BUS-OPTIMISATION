@@ -1,0 +1,83 @@
+{
+  "state": "ABORTED",
+  "preSearchDescription": {
+    "gridLength": 3,
+    "searchStrategy": "GRID",
+    "importantParams": [
+      {
+        "name": "alpha",
+        "vals": [
+          "0.1",
+          "1.0",
+          "3.0"
+        ]
+      }
+    ]
+  },
+  "resumed": false,
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [
+      "Fitting model",
+      "Saving model",
+      "Scoring model",
+      "Preparing explainability"
+    ],
+    "stack": [
+      {
+        "name": "Hyperparameter searching",
+        "target": 0.0,
+        "cur": 0.0,
+        "important": false,
+        "depth": 0,
+        "startTimestamp": 1794981107421,
+        "msSinceStart": 0
+      }
+    ],
+    "top_level_done": [
+      {
+        "name": "Loading train set",
+        "time": 1683
+      },
+      {
+        "name": "Loading test set",
+        "time": 396
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 136
+      },
+      {
+        "name": "Preprocessing train set",
+        "time": 276
+      },
+      {
+        "name": "Preprocessing test set",
+        "time": 76
+      }
+    ]
+  },
+  "startTime": 1794981104820,
+  "endTime": 0,
+  "preprocessingTime": 0,
+  "trainingTime": 0,
+  "hyperparamsSearchTime": 0,
+  "pythonVersion": "3.12.15",
+  "packagesVersion": {
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.13.1",
+    "lightgbm": "4.6.0",
+    "flask": "3.1.3",
+    "itsdangerous": "2.2.0",
+    "jinja2": "3.1.6",
+    "xgboost": "2.1.4",
+    "werkzeug": "3.1.9",
+    "statsmodels": "0.14.6",
+    "pillow": "13.0.0",
+    "markupsafe": "3.0.4",
+    "cloudpickle": "2.2.1"
+  }
+}

@@ -1,0 +1,67 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "transaction_hour": {
+                "impact": 10.189195447359689,
+                "rank": 1,
+                "feature": "transaction_hour",
+                "positiveCategoricalValue": "19",
+                "negativeCategoricalValue": "15",
+                "infoGain": 0.6780488171170702,
+                "type": "CATEGORICAL"
+            },
+            "Route": {
+                "impact": 4.677356578769285,
+                "rank": 2,
+                "feature": "Route",
+                "positiveCategoricalValue": "17",
+                "negativeCategoricalValue": "C26",
+                "infoGain": 0.6756223432913728,
+                "type": "CATEGORICAL"
+            },
+            "is_rush_hour": {
+                "impact": 4.1437374227263355,
+                "rank": 3,
+                "feature": "is_rush_hour",
+                "positiveCategoricalValue": "true",
+                "negativeCategoricalValue": "false",
+                "infoGain": 0.6607059326659308,
+                "type": "CATEGORICAL"
+            },
+            "trip_id": {
+                "impact": 1.6791414162051024,
+                "rank": 4,
+                "feature": "trip_id",
+                "positiveCategoricalValue": "17:1:28500:80:6",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6672336694282288,
+                "type": "CATEGORICAL"
+            },
+            "departure_time": {
+                "impact": 1.6686037550759254,
+                "rank": 5,
+                "feature": "departure_time",
+                "positiveCategoricalValue": "08:32:00",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6672336694282288,
+                "type": "CATEGORICAL"
+            },
+            "arrival_time": {
+                "impact": 1.6686037543686125,
+                "rank": 6,
+                "feature": "arrival_time",
+                "positiveCategoricalValue": "08:32:00",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6672336694282288,
+                "type": "CATEGORICAL"
+            },
+            "Stop_Id": {
+                "impact": 0.97479637663901,
+                "rank": 7,
+                "feature": "Stop_Id",
+                "correlation": -0.831332232774599,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}

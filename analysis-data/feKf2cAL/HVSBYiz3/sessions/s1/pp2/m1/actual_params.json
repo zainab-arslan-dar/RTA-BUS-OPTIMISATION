@@ -1,0 +1,10 @@
+{
+    "resolved": {
+        "algorithm": "RIDGE_REGRESSION",
+        "skipExpensiveReports": false,
+        "ridge": {
+            "alpha": 0.1
+        }
+    },
+    "other": {}
+}

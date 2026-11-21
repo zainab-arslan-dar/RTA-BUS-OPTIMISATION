@@ -1,0 +1,61 @@
+{
+    "startedAt": 1794981505400,
+    "gridSize": 3,
+    "nThreads": 4,
+    "nSplits": 5,
+    "metric": "R2",
+    "timeout": null,
+    "gridPoints": [
+        {
+            "finishedAt": 1794981840028,
+            "score": 0.3720086586083143,
+            "testScoreGibMean": 0.3720086586083143,
+            "testScoreMean": 0.3720086586083143,
+            "testScoreStd": 0.02556748896500793,
+            "trainScoreMean": 0.3765065834582627,
+            "trainScoreStd": 0.006628282196180785,
+            "time": 887291,
+            "fitTimeMean": 176439.0,
+            "fitTimeStd": 13672.063955379963,
+            "scoreTimeMean": 1019.2,
+            "scoreTimeStd": 285.37862568875056,
+            "parameters": {
+                "alpha": 0.1
+            }
+        },
+        {
+            "finishedAt": 1794981997927,
+            "score": 0.3720086554751247,
+            "testScoreGibMean": 0.3720086554751247,
+            "testScoreMean": 0.3720086554751247,
+            "testScoreStd": 0.02556716757714103,
+            "trainScoreMean": 0.37650655618468143,
+            "trainScoreStd": 0.006628280849501541,
+            "time": 766393,
+            "fitTimeMean": 152161.2,
+            "fitTimeStd": 3747.7398735771403,
+            "scoreTimeMean": 1117.4,
+            "scoreTimeStd": 134.28417628298578,
+            "parameters": {
+                "alpha": 1.0
+            }
+        },
+        {
+            "finishedAt": 1794982127230,
+            "score": 0.37200851874874163,
+            "testScoreGibMean": 0.37200851874874163,
+            "testScoreMean": 0.37200851874874163,
+            "testScoreStd": 0.02556647865252726,
+            "trainScoreMean": 0.37650635894876194,
+            "trainScoreStd": 0.0066282698163308085,
+            "time": 702301,
+            "fitTimeMean": 139481.2,
+            "fitTimeStd": 13900.672737677123,
+            "scoreTimeMean": 979.0,
+            "scoreTimeStd": 214.88043186851613,
+            "parameters": {
+                "alpha": 3.0
+            }
+        }
+    ]
+}

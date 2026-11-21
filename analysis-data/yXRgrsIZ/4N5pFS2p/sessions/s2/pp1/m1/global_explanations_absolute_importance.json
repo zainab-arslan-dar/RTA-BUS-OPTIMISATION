@@ -1,0 +1,11 @@
+{
+    "absoluteImportance": {
+        "trip_id": 0.4797084384769005,
+        "arrival_time": 0.48732009953197414,
+        "transaction_hour": 6.415502847302006,
+        "is_rush_hour": 3.208718898362337,
+        "departure_time": 0.5754210987810253,
+        "Route": 2.8295267812213605,
+        "Stop_Id": 2.5468336251025594
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "transaction_hour": {
+                "impact": 6.962585935175637,
+                "rank": 1,
+                "feature": "transaction_hour",
+                "positiveCategoricalValue": "19",
+                "negativeCategoricalValue": "15",
+                "infoGain": 0.5405440947158323,
+                "type": "CATEGORICAL"
+            },
+            "Route": {
+                "impact": 2.605294339272521,
+                "rank": 3,
+                "feature": "Route",
+                "positiveCategoricalValue": "F08",
+                "negativeCategoricalValue": "17",
+                "infoGain": 0.5884589155998708,
+                "type": "CATEGORICAL"
+            },
+            "trip_id": {
+                "impact": 1.3600689729570261,
+                "rank": 5,
+                "feature": "trip_id",
+                "positiveCategoricalValue": "",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6065045117042736,
+                "type": "CATEGORICAL"
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "startedAt": 1794981107310,
+    "gridSize": 2,
+    "nThreads": 4,
+    "nSplits": 5,
+    "metric": "R2",
+    "timeout": null,
+    "gridPoints": [
+        {
+            "finishedAt": 1794981186616,
+            "score": 0.615464791489652,
+            "testScoreGibMean": 0.615464791489652,
+            "testScoreMean": 0.615464791489652,
+            "testScoreStd": 0.03826413736359202,
+            "trainScoreMean": 0.6256050055804858,
+            "trainScoreStd": 0.010513288183971427,
+            "time": 203343,
+            "fitTimeMean": 39259.6,
+            "fitTimeStd": 1012.9437496722114,
+            "scoreTimeMean": 1409.0,
+            "scoreTimeStd": 147.60081300589098,
+            "parameters": {
+                "max_depth": 6,
+                "max_features": 1.0,
+                "min_samples_leaf": 10,
+                "n_estimators": 100,
+                "min_samples_split": 30
+            }
+        }
+    ]
+}

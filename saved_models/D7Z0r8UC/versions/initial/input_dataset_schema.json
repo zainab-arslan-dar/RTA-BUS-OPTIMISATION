@@ -1,0 +1,22 @@
+{
+  "columns": [
+    {"name":"parsed_date","type":"date"},
+    {"name":"day_of_week","type":"bigint"},
+    {"name":"transaction_hour","type":"string"},
+    {"name":"Route","type":"string","comment":"","meaning":"Text"},
+    {"name":"Stop_Id","type":"bigint","comment":""},
+    {"name":"Stop_name","type":"string","comment":""},
+    {"name":"count","type":"bigint"},
+    {"name":"trip_id","type":"string"},
+    {"name":"arrival_time","type":"string"},
+    {"name":"departure_time","type":"string"},
+    {"name":"stop_id","type":"string"},
+    {"name":"stop_sequence","type":"string"},
+    {"name":"route_id","type":"string"},
+    {"name":"stop_name","type":"string"},
+    {"name":"stop_lat","type":"string"},
+    {"name":"stop_lon","type":"string"},
+    {"name":"zone_id","type":"string"}
+  ],
+  "userModified": true
+}

@@ -1,0 +1,49 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "transaction_hour": {
+                "impact": 10.19545400830686,
+                "rank": 1,
+                "feature": "transaction_hour",
+                "positiveCategoricalValue": "19",
+                "negativeCategoricalValue": "15",
+                "infoGain": 0.6780488171170702,
+                "type": "CATEGORICAL"
+            },
+            "trip_id": {
+                "impact": 5.028839900232583,
+                "rank": 2,
+                "feature": "trip_id",
+                "positiveCategoricalValue": "17:1:28500:80:6",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6672336694282288,
+                "type": "CATEGORICAL"
+            },
+            "Route": {
+                "impact": 4.67907309992961,
+                "rank": 3,
+                "feature": "Route",
+                "positiveCategoricalValue": "17",
+                "negativeCategoricalValue": "C26",
+                "infoGain": 0.6756223432913728,
+                "type": "CATEGORICAL"
+            },
+            "is_rush_hour": {
+                "impact": 4.108245195639923,
+                "rank": 4,
+                "feature": "is_rush_hour",
+                "positiveCategoricalValue": "true",
+                "negativeCategoricalValue": "false",
+                "infoGain": 0.6607059326659308,
+                "type": "CATEGORICAL"
+            },
+            "Stop_Id": {
+                "impact": 0.9736757089336459,
+                "rank": 5,
+                "feature": "Stop_Id",
+                "correlation": -0.8410388378883474,
+                "type": "NUMERICAL"
+            }
+        }
+    }
+}

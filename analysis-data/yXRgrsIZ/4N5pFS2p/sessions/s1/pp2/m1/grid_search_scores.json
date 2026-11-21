@@ -1,0 +1,9 @@
+{
+    "startedAt": 1794981107625,
+    "gridSize": 3,
+    "nThreads": 4,
+    "nSplits": 5,
+    "metric": "R2",
+    "timeout": null,
+    "gridPoints": []
+}

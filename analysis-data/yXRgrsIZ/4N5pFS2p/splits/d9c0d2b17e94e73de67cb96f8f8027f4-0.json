@@ -1,0 +1,70 @@
+{
+  "params": {
+    "ttPolicy": "SPLIT_SINGLE_DATASET",
+    "ssdSplitMode": "RANDOM",
+    "splitBeforePrepare": true,
+    "ssdSelection": {
+      "useMemTable": false,
+      "filter": {
+        "distinct": false,
+        "enabled": false
+      },
+      "partitionSelectionMethod": "ALL",
+      "latestPartitionsN": 1,
+      "ordering": {
+        "enabled": false,
+        "rules": []
+      },
+      "samplingMethod": "HEAD_SEQUENTIAL",
+      "maxRecords": 100000,
+      "targetRatio": 0.02,
+      "ascending": true,
+      "withinFirstN": -1,
+      "maxReadUncompressedBytes": -1,
+      "seed": 1337
+    },
+    "ssdTrainingRatio": 0.8,
+    "ssdStratified": false,
+    "ssdGrouped": false,
+    "ssdSeed": 1337,
+    "testOnLargerValues": true,
+    "streamAll": false,
+    "kfold": false,
+    "nFolds": 5,
+    "instanceIdRefresher": 0,
+    "subSamplingSeed": 1337
+  },
+  "generationDate": 1794981097639,
+  "policyId": "type\u003dSPLIT_SINGLE_DATASET,split\u003dRANDOM,splitBeforePrepare\u003dtrue,ds\u003dmaster_forecasting_joined_prepared,sel\u003d(method\u003dhead-s,records\u003d100000),r\u003d0.8,s\u003d1337",
+  "instanceId": "d9c0d2b17e94e73de67cb96f8f8027f4-0",
+  "format": "csv1",
+  "schema": {
+    "columns": [
+      {"name":"parsed_date","type":"date"},
+      {"name":"day_of_week","type":"bigint"},
+      {"name":"is_weekend","type":"boolean"},
+      {"name":"transaction_hour","type":"string"},
+      {"name":"is_rush_hour","type":"boolean"},
+      {"name":"Route","type":"string"},
+      {"name":"Stop_Id","type":"bigint"},
+      {"name":"Stop_name","type":"string"},
+      {"name":"count","type":"bigint"},
+      {"name":"trip_id","type":"string"},
+      {"name":"arrival_time","type":"string"},
+      {"name":"departure_time","type":"string"},
+      {"name":"stop_id","type":"bigint"},
+      {"name":"stop_sequence","type":"bigint"},
+      {"name":"route_id","type":"bigint"},
+      {"name":"stop_name","type":"string"},
+      {"name":"stop_lat","type":"double"},
+      {"name":"stop_lon","type":"double"},
+      {"name":"zone_id","type":"string"}
+    ],
+    "userModified": false
+  },
+  "trainPath": "train-d9c0d2b17e94e73de67cb96f8f8027f4-0.csv.gz",
+  "testPath": "test-d9c0d2b17e94e73de67cb96f8f8027f4-0.csv.gz",
+  "trainRows": 79912,
+  "testRows": 20088,
+  "fullRows": 0
+}

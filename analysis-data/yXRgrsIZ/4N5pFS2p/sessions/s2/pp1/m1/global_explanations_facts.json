@@ -1,0 +1,60 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "transaction_hour": {
+                "impact": 6.415502847302007,
+                "rank": 1,
+                "feature": "transaction_hour",
+                "positiveCategoricalValue": "19",
+                "negativeCategoricalValue": "15",
+                "infoGain": 0.5588183701200234,
+                "type": "CATEGORICAL"
+            },
+            "is_rush_hour": {
+                "impact": 3.2087188983623354,
+                "rank": 2,
+                "feature": "is_rush_hour",
+                "positiveCategoricalValue": "true",
+                "negativeCategoricalValue": "false",
+                "infoGain": 0.6346069102336424,
+                "type": "CATEGORICAL"
+            },
+            "Route": {
+                "impact": 2.829526781221362,
+                "rank": 3,
+                "feature": "Route",
+                "positiveCategoricalValue": "F08",
+                "negativeCategoricalValue": "17",
+                "infoGain": 0.5662613486692115,
+                "type": "CATEGORICAL"
+            },
+            "departure_time": {
+                "impact": 0.5754210987810254,
+                "rank": 5,
+                "feature": "departure_time",
+                "positiveCategoricalValue": "",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6185308386490331,
+                "type": "CATEGORICAL"
+            },
+            "arrival_time": {
+                "impact": 0.487320099531974,
+                "rank": 6,
+                "feature": "arrival_time",
+                "positiveCategoricalValue": "",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.660905641786577,
+                "type": "CATEGORICAL"
+            },
+            "trip_id": {
+                "impact": 0.47970843847690037,
+                "rank": 7,
+                "feature": "trip_id",
+                "positiveCategoricalValue": "",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6693725100453412,
+                "type": "CATEGORICAL"
+            }
+        }
+    }
+}

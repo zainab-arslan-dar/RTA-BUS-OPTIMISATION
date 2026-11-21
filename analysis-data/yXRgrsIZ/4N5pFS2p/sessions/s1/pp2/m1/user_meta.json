@@ -1,0 +1,38 @@
+{
+  "starred": false,
+  "clusterMetas": {},
+  "customMeta": {
+    "kv": {}
+  },
+  "tags": [],
+  "activeClassifierThreshold": 0.0,
+  "description": "",
+  "name": "Ridge (L2) regression (s1)",
+  "labels": [
+    {
+      "secret": false,
+      "key": "trainDataset:dataset-name",
+      "value": "master_forecasting_joined_prepared"
+    },
+    {
+      "secret": false,
+      "key": "testDataset:dataset-name",
+      "value": "master_forecasting_joined_prepared"
+    },
+    {
+      "secret": false,
+      "key": "evaluationDataset:dataset-name",
+      "value": "master_forecasting_joined_prepared"
+    },
+    {
+      "secret": false,
+      "key": "model:algorithm",
+      "value": "RIDGE_REGRESSION"
+    },
+    {
+      "secret": false,
+      "key": "model:name",
+      "value": "Ridge (L2) regression (s1)"
+    }
+  ]
+}

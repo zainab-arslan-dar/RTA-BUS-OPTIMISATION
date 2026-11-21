@@ -1,0 +1,115 @@
+{
+  "state": "DONE",
+  "preSearchDescription": {
+    "gridLength": 2,
+    "searchStrategy": "GRID",
+    "importantParams": [
+      {
+        "name": "trees",
+        "vals": [
+          "100"
+        ]
+      },
+      {
+        "name": "depth",
+        "vals": [
+          "6",
+          "14"
+        ]
+      },
+      {
+        "name": "min_samples",
+        "vals": [
+          "10"
+        ]
+      }
+    ]
+  },
+  "postSearchDescription": {
+    "importantParams": [
+      {
+        "name": "trees",
+        "val": "100"
+      },
+      {
+        "name": "depth",
+        "val": "14"
+      },
+      {
+        "name": "min_samples",
+        "val": "10"
+      }
+    ]
+  },
+  "resumed": false,
+  "timeOrderingEnabled": false,
+  "sampleWeightsEnabled": false,
+  "modelId": "m1",
+  "progress": {
+    "top_level_todo": [],
+    "stack": [],
+    "top_level_done": [
+      {
+        "name": "Loading train set",
+        "time": 1664
+      },
+      {
+        "name": "Loading test set",
+        "time": 385
+      },
+      {
+        "name": "Collecting statistics",
+        "time": 123
+      },
+      {
+        "name": "Preprocessing train set",
+        "time": 272
+      },
+      {
+        "name": "Preprocessing test set",
+        "time": 76
+      },
+      {
+        "name": "Hyperparameter searching",
+        "time": 165892
+      },
+      {
+        "name": "Fitting model",
+        "time": 28515
+      },
+      {
+        "name": "Saving model",
+        "time": 829
+      },
+      {
+        "name": "Scoring model",
+        "time": 3132
+      },
+      {
+        "name": "Preparing explainability",
+        "time": 5219
+      }
+    ]
+  },
+  "startTime": 1794941909316,
+  "endTime": 1794942115461,
+  "preprocessingTime": 2553,
+  "trainingTime": 203592,
+  "hyperparamsSearchTime": 165892,
+  "pythonVersion": "3.12.15",
+  "packagesVersion": {
+    "pandas": "2.2.3",
+    "scikit-learn": "1.6.1",
+    "scipy": "1.13.1",
+    "lightgbm": "4.6.0",
+    "flask": "3.1.3",
+    "itsdangerous": "2.2.0",
+    "jinja2": "3.1.6",
+    "xgboost": "2.1.4",
+    "werkzeug": "3.1.9",
+    "statsmodels": "0.14.6",
+    "pillow": "13.0.0",
+    "markupsafe": "3.0.4",
+    "cloudpickle": "2.2.1"
+  }
+}

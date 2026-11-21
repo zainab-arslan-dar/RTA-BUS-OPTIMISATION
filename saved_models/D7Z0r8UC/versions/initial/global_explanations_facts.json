@@ -1,0 +1,51 @@
+{
+    "perClassFacts": {
+        "unique": {
+            "transaction_hour": {
+                "impact": 9.190439305538298,
+                "rank": 1,
+                "feature": "transaction_hour",
+                "positiveCategoricalValue": "19",
+                "negativeCategoricalValue": "15",
+                "infoGain": 0.5432751191574914,
+                "type": "CATEGORICAL"
+            },
+            "Route": {
+                "impact": 3.5483245103698406,
+                "rank": 2,
+                "feature": "Route",
+                "positiveCategoricalValue": "F08",
+                "negativeCategoricalValue": "13B",
+                "infoGain": 0.6488443297109194,
+                "type": "CATEGORICAL"
+            },
+            "trip_id": {
+                "impact": 0.6483513984235014,
+                "rank": 4,
+                "feature": "trip_id",
+                "positiveCategoricalValue": "2014:3:65100:2029:5",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6854455452203904,
+                "type": "CATEGORICAL"
+            },
+            "departure_time": {
+                "impact": 0.562726091014792,
+                "rank": 5,
+                "feature": "departure_time",
+                "positiveCategoricalValue": "17:32:30",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.6588543034981885,
+                "type": "CATEGORICAL"
+            },
+            "arrival_time": {
+                "impact": 0.48101574390087687,
+                "rank": 6,
+                "feature": "arrival_time",
+                "positiveCategoricalValue": "",
+                "negativeCategoricalValue": "",
+                "infoGain": 0.649392313224374,
+                "type": "CATEGORICAL"
+            }
+        }
+    }
+}

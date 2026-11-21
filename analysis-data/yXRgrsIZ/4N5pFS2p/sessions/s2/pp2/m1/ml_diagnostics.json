@@ -1,0 +1,9 @@
+{
+    "diagnostics": [
+        {
+            "type": "ML_DIAGNOSTICS_RUNTIME",
+            "message": "Enable distributed hyperparameter search to reduce training time",
+            "step": "Hyperparameter searching"
+        }
+    ]
+}
